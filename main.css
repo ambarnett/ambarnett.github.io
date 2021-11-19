@@ -65,10 +65,8 @@ html {
   position: absolute;
   left: 0;
   top: 43%;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 18px;
   float: left;
   gap: 5rem;
 }
