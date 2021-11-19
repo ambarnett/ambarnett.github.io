@@ -60,23 +60,38 @@ html {
   font-size: 25px;
   letter-spacing: 10px;
 }
-.caption-main {
+
+.name-and-resume {
   position: absolute;
   left: 0;
-  top: 50%;
-  width: 100%;
+  top: 43%;
   text-align: center;
-  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  float: left;
+  gap: 5rem;
 }
 
-.caption-main span.border {
+.border-name {
   background-color: #111;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-  float: left;
+  border-radius: 5px;
 }
+
+.border-resume{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .caption-2 {
   position: absolute;
   left: 0;
@@ -92,6 +107,7 @@ html {
   font-size: 25px;
   letter-spacing: 10px;
 }
+
 .social-icons {
   position: absolute;
   right: 0;
@@ -132,4 +148,8 @@ h3 {
 }
 .bi{
     color: #000;
+}
+
+.bi-download{
+  color: #fff;
 }
