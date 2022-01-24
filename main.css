@@ -6,6 +6,10 @@ html {
   color: #777;
 }
 
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .aboutme{
   font-size: large;
 }
