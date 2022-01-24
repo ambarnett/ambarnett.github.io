@@ -6,6 +6,10 @@ html {
   color: #777;
 }
 
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .aboutme{
   font-size: large;
 }
@@ -150,4 +154,16 @@ h3 {
 
 .bi-download{
   color: #fff;
+}
+
+.projects-main {
+  display: flex;
+}
+
+.project h2 {
+  text-align: center;
+}
+
+.cc-gif {
+  max-width: 50%;
 }
