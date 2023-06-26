@@ -46,7 +46,33 @@ html {
 }
 
 .name-icons {
-  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  padding-left: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  order: 1;
+  text-align-last: justify;
+}
+
+.name-icons a {
+  background-color: none;
+}
+
+.my-name {
+  background-color: #111;
+  color: #fff;
+}
+
+.icons {
+  padding-left: inherit;
+}
+
+.icons a {
+  text-decoration: none;
 }
 
 .caption {
@@ -57,30 +83,20 @@ html {
   text-align: center;
   color: #000;
 }
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
+
 .caption-main {
+  order: 1;
   position: absolute;
-  left: 0;
   top: 50%;
-  width: 100%;
   text-align: center;
   color: #000;
-}
-
-.caption-main span.border {
   background-color: #111;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-  float: left;
 }
+
 .caption-2 {
   position: absolute;
   left: 0;
@@ -95,20 +111,6 @@ html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-}
-.social-icons {
-  position: absolute;
-  right: 0;
-  top: 22rem;
-  text-align: center;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  padding: 18px;
-  font-size: 60px;
-  letter-spacing: 10px;
-  float: right;
 }
 
 h3 {
